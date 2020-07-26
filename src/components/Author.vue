@@ -14,7 +14,7 @@
     </h1>
 
     <p class="author__intro">
-      Digital practitioner
+      Digital practitioner 👨‍💻
     </p>
 
     <p class="author__links">
