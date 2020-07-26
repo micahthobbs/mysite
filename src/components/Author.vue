@@ -49,9 +49,9 @@ export default {
   padding: calc(var(--space) / 2) 0;
 
   &__image {
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
     margin-bottom: 1em;
   }
 
