@@ -9,20 +9,14 @@
       blur="5"
     />
 
-    <h1 v-if="showTitle" class="author__site-title">
-      {{ $static.metadata.siteName }}
-    </h1>
+    <h1 v-if="showTitle" class="author__site-title">{{ $static.metadata.siteName }}</h1>
 
-    <p class="author__intro">
-      Digital practitioner 👨‍💻
-    </p>
+    <p class="author__intro">Digital practitioner 👨‍💻</p>
 
     <p class="author__links">
       <a target="_blank" href="https://twitter.com/micahthobbs">Twitter</a>
       <a target="_blank" href="https://github.com/micahthobbs">GitHub</a>
-      <a target="_blank" href="https://www.linkedin.com/in/micahthobbs"
-        >LinkedIn</a
-      >
+      <a target="_blank" href="https://www.linkedin.com/in/micahthobbs">LinkedIn</a>
     </p>
   </div>
 </template>
