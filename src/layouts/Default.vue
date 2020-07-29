@@ -6,6 +6,11 @@
       </div>
 
       <div class="header__right">
+        <nav class="nav">
+          <g-link class="nav__link" to="/about/">About</g-link>
+          <g-link class="nav__link" to="/blog/">Blog</g-link>
+          <g-link class="nav__link" to="/projects/">Projects</g-link>
+        </nav>
         <ToggleTheme />
       </div>
     </header>
@@ -15,9 +20,7 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright"
-        >Copyright © {{ new Date().getFullYear() }}.
-      </span>
+      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
     </footer>
   </div>
 </template>
@@ -46,11 +49,16 @@ export default {
   padding: 0 calc(var(--space) / 2);
   top: 0;
   z-index: 10;
+  background-color: var(--bg-content-color);
 
   &__left,
   &__right {
     display: flex;
     align-items: center;
+  }
+
+  .nav__link {
+    margin-right: 25px;
   }
 
   @media screen and (min-width: 1300px) {
