@@ -1,7 +1,10 @@
 <template>
   <Layout class :show-logo="true">
     <!-- Author intro -->
-    <h2>Projects</h2>
+    <div class="container">
+      <h1>Projects</h1>
+      <div class="content-box">Stuff</div>
+    </div>
   </Layout>
 </template>
 
@@ -9,4 +12,9 @@
 
 <script></script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.container {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+</style>

@@ -49,7 +49,6 @@ export default {
   padding: 0 calc(var(--space) / 2);
   top: 0;
   z-index: 10;
-  background-color: var(--bg-content-color);
 
   &__left,
   &__right {
@@ -58,7 +57,8 @@ export default {
   }
 
   .nav__link {
-    margin-right: 25px;
+    margin-right: 30px;
+    text-decoration: none;
   }
 
   @media screen and (min-width: 1300px) {
