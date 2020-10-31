@@ -13,7 +13,7 @@
       {{ $static.metadata.siteName }}
     </h1>
 
-    <p class="author__intro">Digital practitioner 👨‍💻</p>
+    <p class="author__intro">Digital practitioner and technology consultant👨‍💻</p>
 
     <p class="author__links">
       <a target="_blank" rel="noopener" href="https://twitter.com/micahthobbs"
